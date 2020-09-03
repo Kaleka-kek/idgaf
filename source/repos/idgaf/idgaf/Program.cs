@@ -6,7 +6,7 @@ namespace idgaf
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("lol!");
+            Console.WriteLine("not lol!");
         }
     }
 }
