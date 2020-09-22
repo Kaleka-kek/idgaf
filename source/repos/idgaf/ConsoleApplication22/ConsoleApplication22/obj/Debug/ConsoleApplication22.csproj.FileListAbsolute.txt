@@ -1,6 +1,0 @@
-d:\profiles\users\user\documents\visual studio 2015\Projects\ConsoleApplication22\ConsoleApplication22\bin\Debug\ConsoleApplication22.exe.config
-d:\profiles\users\user\documents\visual studio 2015\Projects\ConsoleApplication22\ConsoleApplication22\bin\Debug\ConsoleApplication22.exe
-d:\profiles\users\user\documents\visual studio 2015\Projects\ConsoleApplication22\ConsoleApplication22\bin\Debug\ConsoleApplication22.pdb
-d:\profiles\users\user\documents\visual studio 2015\Projects\ConsoleApplication22\ConsoleApplication22\obj\Debug\ConsoleApplication22.csprojResolveAssemblyReference.cache
-d:\profiles\users\user\documents\visual studio 2015\Projects\ConsoleApplication22\ConsoleApplication22\obj\Debug\ConsoleApplication22.exe
-d:\profiles\users\user\documents\visual studio 2015\Projects\ConsoleApplication22\ConsoleApplication22\obj\Debug\ConsoleApplication22.pdb
