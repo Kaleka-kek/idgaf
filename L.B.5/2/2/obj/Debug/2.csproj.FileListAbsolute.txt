@@ -1,0 +1,11 @@
+C:\Users\Arman\source\repos\5\2\2\bin\Debug\2.exe.config
+C:\Users\Arman\source\repos\5\2\2\bin\Debug\2.exe
+C:\Users\Arman\source\repos\5\2\2\bin\Debug\2.pdb
+C:\Users\Arman\source\repos\5\2\2\obj\Debug\2.csprojAssemblyReference.cache
+C:\Users\Arman\source\repos\5\2\2\obj\Debug\_2.Form1.resources
+C:\Users\Arman\source\repos\5\2\2\obj\Debug\_2.Properties.Resources.resources
+C:\Users\Arman\source\repos\5\2\2\obj\Debug\2.csproj.GenerateResource.cache
+C:\Users\Arman\source\repos\5\2\2\obj\Debug\2.csproj.CoreCompileInputs.cache
+C:\Users\Arman\source\repos\5\2\2\obj\Debug\2.exe
+C:\Users\Arman\source\repos\5\2\2\obj\Debug\2.pdb
+C:\Users\Arman\source\repos\5\2\2\obj\Debug\_2.Form2.resources
