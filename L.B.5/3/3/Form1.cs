@@ -28,15 +28,37 @@ namespace _3
             dataGridView1.ColumnCount = I;
             Mat mat = new Mat(I,J);            
             int[,] array = mat.ReturnArray();
-            //UpTriangleMat uttrix = new UpTriangleMat(I, J);
-            //int[,] array = mat.ReturnArray();
-            //UnitMatrix unmat = new UnitMatrix(I,J); 
-            //int[,] array = unmat.ReturnArray();
             for (int i = 0; i < J; i++)
             for (int j = 0; j < I; j++)
                 dataGridView1.Rows[i].Cells[j].Value = array[i, j];
         }
 
+        public virtual void button3_Click(object sender, EventArgs e)
+        {
+            I = Convert.ToInt32(textBox1.Text);
+            J = Convert.ToInt32(textBox2.Text);
+
+            dataGridView1.RowCount = J;
+            dataGridView1.ColumnCount = I;
+            UnitMatrix unmat = new UnitMatrix(I,J); 
+            int[,] array = unmat.ReturnArray();
+            for (int i = 0; i < J; i++)
+            for (int j = 0; j < I; j++)
+                dataGridView1.Rows[i].Cells[j].Value = array[i, j];
+        }
+        public virtual void button2_Click(object sender, EventArgs e)
+        {
+            I = Convert.ToInt32(textBox1.Text);
+            J = Convert.ToInt32(textBox2.Text);
+
+            dataGridView1.RowCount = J;
+            dataGridView1.ColumnCount = I;
+            UpTriangleMat uttrix = new UpTriangleMat(I, J);
+            int[,] array = uttrix.ReturnArray();
+            for (int i = 0; i < J; i++)
+            for (int j = 0; j < I; j++)
+                dataGridView1.Rows[i].Cells[j].Value = array[i, j];
+        }
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
@@ -100,7 +122,7 @@ namespace _3
     {
         private int I;
         private int J;
-        public UnitaryMatrix(int i, int j) : base(i, j)
+        public UnitMatrix(int i, int j) : base(i, j)
         {
             I = i;
             J = j;
